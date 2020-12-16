@@ -23,7 +23,7 @@ const companies  = {
     name: 'companies',
     label: 'Companies',
     label_singular: 'Company',
-    folder: 'content/companies',
+    folder: 'companies',
     media_folder: '',
     path: '{{slug}}/index',
     extension: 'toml',
