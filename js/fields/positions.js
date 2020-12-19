@@ -2,7 +2,7 @@ import country from './country.js'
 import city from './city.js'
 import postalCode from './postalCode.js'
 import address from './address.js'
-import position from './position.js'
+import map from './map.js'
 
 export default {
     label: 'Positions',
@@ -16,6 +16,6 @@ export default {
 	city,
 	postalCode,
 	address,
-	position
+	map
     ]
 }

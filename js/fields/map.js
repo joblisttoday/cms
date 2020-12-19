@@ -1,6 +1,6 @@
 export default {
-    label: 'Position',
-    name: 'position',
+    label: 'Map position',
+    name: 'map',
     widget: 'map',
     required: true
 }
