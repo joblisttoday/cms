@@ -1,6 +1,6 @@
 import title from '../fields/title.js'
 import slug from '../fields/slug.js'
-import body from '../fields/body.js'
+import description from '../fields/description.js'
 import tags from '../fields/tags.js'
 import companyUrl from '../fields/companyUrl.js'
 import jobBoardUrl from '../fields/jobBoardUrl.js'
@@ -30,7 +30,7 @@ const companies  = {
     fields: [
 	title,
 	slug,
-	body,
+	description,
 	tags,
 	companyUrl,
 	jobBoardUrl,
