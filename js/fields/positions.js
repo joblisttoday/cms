@@ -10,9 +10,10 @@ export default {
     widget: 'list',
     required: false,
     hint: 'A list of positions where this company has offices, potentially hirring locations.',
+    collapsed: false,
     fields: [
-	city,
 	country,
+	city,
 	postalCode,
 	address,
 	position
