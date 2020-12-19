@@ -5,6 +5,6 @@ export default {
     name: 'slug',
     widget: 'string',
     required: true,
-    hint: 'The Slug is the text used to create the URL of this item: https://example.com/my-article ; where my-article is the slug',
+    hint: 'The Slug is the text used to create the URL of this company: https://profiles.joblist.city/my-slug ; where my-slug is the slug',
     pattern: patternPath
 }
