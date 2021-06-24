@@ -7,11 +7,12 @@ export default {
 
 		publish_mode: 'editorial_workflow',
 		backend: {
-		name: 'github',
-		repo: 'joblistcity/companies',
-		open_authoring: true,
-		use_graphql: true
-	},
+			name: 'github',
+			repo: 'joblistcity/companies',
+			auth_scope: 'repo',
+			open_authoring: true,
+			use_graphql: true
+		},
 
 		media_folder: 'media/uploads',
 		public_folder: 'media/uploads',
