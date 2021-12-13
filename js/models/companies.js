@@ -15,36 +15,36 @@ import positions from '../fields/positions.js'
 import createdAt from '../fields/createdAt.js'
 import updatedAt from '../fields/updatedAt.js'
 
-const companies  = {
-    name: 'companies',
-    label: 'Companies',
-    label_singular: 'Company',
-    folder: 'companies',
-    media_folder: '',
-    path: '{{slug}}/index',
-    create: true,
-    slug: '{{title}}',
-    editor: {
-	preview: false
-    },
-    fields: [
-	title,
-	slug,
-	description,
-	tags,
-	companyUrl,
-	jobBoardUrl,
-	jobBoardProvider,
-	jobBoardHostname,
-	twitterUrl,
-	linkedinUrl,
-	instagramUrl,
-	facebookUrl,
-	cities,
-	positions,
-	createdAt,
-	updatedAt,
-    ]
+const companies	 = {
+	name: 'companies',
+	label: 'Companies',
+	label_singular: 'Company',
+	folder: 'companies',
+	media_folder: '',
+	path: '{{slug}}/index',
+	create: true,
+	slug: '{{title}}',
+	editor: {
+		preview: false
+	},
+	fields: [
+		title,
+		slug,
+		description,
+		tags,
+		companyUrl,
+		jobBoardUrl,
+		jobBoardProvider,
+		jobBoardHostname,
+		twitterUrl,
+		linkedinUrl,
+		instagramUrl,
+		facebookUrl,
+		cities,
+		positions,
+		createdAt,
+		updatedAt,
+	]
 }
 
 export default companies

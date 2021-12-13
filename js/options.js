@@ -9,7 +9,7 @@ export default {
 		backend: {
 			name: 'github',
 			repo: 'joblistcity/companies',
-			// auth_scope: 'repo',
+			auth_scope: 'repo',
 			open_authoring: true,
 			use_graphql: true
 		},
