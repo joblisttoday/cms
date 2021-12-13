@@ -28,6 +28,8 @@ const companies	 = {
 		preview: false
 	},
 	fields: [
+		createdAt,
+		updatedAt,
 		title,
 		slug,
 		description,
@@ -42,8 +44,6 @@ const companies	 = {
 		facebookUrl,
 		cities,
 		positions,
-		createdAt,
-		updatedAt,
 	]
 }
 
