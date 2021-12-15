@@ -8,7 +8,7 @@ export default {
 		publish_mode: 'editorial_workflow',
 		backend: {
 			name: 'github',
-			repo: 'joblistcity/companies',
+			repo: 'joblisttoday/companies',
 			auth_scope: 'repo',
 			open_authoring: true,
 			use_graphql: true
