@@ -7,13 +7,14 @@
 		<title>edit | joblist</title>
 	</head>
 	<body>
-		<script>
-			// This global flag enables manual initialization.
-			window.CMS_MANUAL_INIT = true
-		</script>
 		<script src="https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js"></script>
 		<script type="module">
 			import options from './js/options.js'
+
+			// enables netlify-cms manual initialization.
+			window.CMS_MANUAL_INIT = true
+
+			// initialize netlify-cms with site config
 			window.initCMS(options)
 		</script>
 	</body>
