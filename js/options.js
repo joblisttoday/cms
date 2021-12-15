@@ -9,6 +9,7 @@ export default {
 		backend: {
 			name: 'github',
 			repo: 'joblisttoday/companies',
+			branch: 'main',
 			auth_scope: 'repo',
 			open_authoring: true,
 			use_graphql: true
