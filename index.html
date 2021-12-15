@@ -7,14 +7,18 @@
 		<title>edit | joblist</title>
 	</head>
 	<body>
+		<script>
+			// enable netlify-cms manual initialization before loading it
+			window.CMS_MANUAL_INIT = true
+		</script>
+
+		<!-- load netlify-cms dependency form cdn -->
 		<script src="https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js"></script>
+
 		<script type="module">
 			import options from './js/options.js'
 
-			// enables netlify-cms manual initialization.
-			window.CMS_MANUAL_INIT = true
-
-			// initialize netlify-cms with site config
+			// initialize cms with our configuration options
 			window.initCMS(options)
 		</script>
 	</body>
