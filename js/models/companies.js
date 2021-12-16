@@ -27,6 +27,11 @@ const companies	 = {
 	editor: {
 		preview: false
 	},
+
+	/* filtering */
+  sortable_fields: ['title', 'slug', 'created_at', 'updated_at'],
+
+	/* fields */
 	fields: [
 		createdAt,
 		updatedAt,
