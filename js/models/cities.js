@@ -1,6 +1,7 @@
 import title from '../fields/cities/title.js'
 import slug from '../fields/cities/slug.js'
 import country from '../fields/cities/country.js'
+import map from '../fields/cities/map.js'
 import isFeatured from '../fields/cities/isFeatured.js'
 
 const cities = {
@@ -23,8 +24,9 @@ const cities = {
 	fields: [
 		title,
 		slug,
-		country,
 		isFeatured,
+		country,
+		map,
 	],
 }
 
