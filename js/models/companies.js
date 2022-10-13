@@ -10,7 +10,6 @@ import twitterUrl from '../fields/companies/twitterUrl.js'
 import linkedinUrl from '../fields/companies/linkedinUrl.js'
 import instagramUrl from '../fields/companies/instagramUrl.js'
 import facebookUrl from '../fields/companies/facebookUrl.js'
-import cities from '../fields/companies/cities.js'
 import positions from '../fields/companies/positions.js'
 import createdAt from '../fields/companies/createdAt.js'
 import updatedAt from '../fields/companies/updatedAt.js'
@@ -47,7 +46,6 @@ const companies = {
 		linkedinUrl,
 		instagramUrl,
 		facebookUrl,
-		cities,
 		positions,
 	]
 }
