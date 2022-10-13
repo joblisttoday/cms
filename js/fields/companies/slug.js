@@ -1,4 +1,4 @@
-import patternPath from '../utils/pattern-path.js'
+import patternPath from '../../utils/pattern-path.js'
 
 export default {
 	label: 'Slug',
