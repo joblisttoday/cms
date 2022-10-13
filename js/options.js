@@ -3,7 +3,7 @@ import collections from './collections.js'
 export default {
 	config: {
 		load_config_file: false,
-		display_url: window.location.origin,
+		display_url: 'https://joblist.today',
 
 		publish_mode: 'editorial_workflow',
 		backend: {
