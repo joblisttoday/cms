@@ -1,3 +1,5 @@
+/* currently ununsed */
+
 export default {
 	label: 'Cities',
 	name: 'cities',
