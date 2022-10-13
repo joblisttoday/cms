@@ -35,8 +35,10 @@ Data: [Creative Commons Attribution-ShareAlike license (CC-BY-SA)](https://creat
 ## Development
 
 
-Install the npm package `serve` globally:
+If you have node and `npm` installed in your machine, run:
 
 ```
-serve -s .
+npx serve -s .
 ```
+
+> `-s` option is for URL to works, managed by the cms (not serve)
