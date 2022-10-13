@@ -16,6 +16,8 @@ const tags = {
 		preview: false
 	},
 
+	description: "Tags, are words to group projects according to categories",
+
 	/* filtering */
 	sortable_fields: ['title', 'slug', 'wikipedia_url', 'is_featured'],
 
