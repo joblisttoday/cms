@@ -1,0 +1,24 @@
+{
+  "name": "@joblist/cms",
+  "version": "0.0.1",
+  "description": "A netlify-cms instance to edit joblist.today data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "npv serve -s ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/joblist/cms.git"
+  },
+  "keywords": [
+    "netlify-cms",
+    "joblist"
+  ],
+  "author": "joblist",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://gitlab.com/joblist/cms/issues"
+  },
+  "homepage": "https://gitlab.com/joblist/cms#readme"
+}
