@@ -11,8 +11,7 @@ export default {
 			repo: 'joblisttoday/companies',
 			branch: 'main',
 			auth_scope: 'repo',
-			open_authoring: true,
-			use_graphql: true
+			open_authoring: true
 		},
 
 		media_folder: 'media/uploads',
