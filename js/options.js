@@ -10,7 +10,6 @@ export default {
 			name: 'github',
 			repo: 'joblisttoday/data',
 			branch: 'main',
-			auth_scope: 'repo',
 			open_authoring: true
 		},
 
