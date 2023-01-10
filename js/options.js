@@ -10,7 +10,8 @@ export default {
 			name: 'github',
 			repo: 'joblisttoday/data',
 			branch: 'main',
-			open_authoring: true
+			open_authoring: true,
+			use_graphql: true
 		},
 
 		media_folder: 'media/uploads',
