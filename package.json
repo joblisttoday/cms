@@ -5,16 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "npv serve -s ."
+    "dev": "npx serve -s ."
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/joblist/cms.git"
   },
-  "keywords": [
-    "netlify-cms",
-    "joblist"
-  ],
+  "keywords": ["netlify-cms", "joblist"],
   "author": "joblist",
   "license": "GPL-3.0-or-later",
   "bugs": {

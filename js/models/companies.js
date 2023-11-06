@@ -50,7 +50,6 @@ const companies = {
 		jobBoardHostname,
 		description,
 		tags,
-
 		twitterUrl,
 		linkedinUrl,
 		youtubeUrl,
