@@ -3,23 +3,23 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" type="image/jpg" href="./media/favicon.ico"/>
+		<link rel="shortcut icon" type="image/jpg" href="./media/favicon.ico" />
 		<title>edit | joblist</title>
 	</head>
 	<body>
 		<script>
 			// enable netlify-cms manual initialization before loading it
-			window.CMS_MANUAL_INIT = true
+			window.CMS_MANUAL_INIT = true;
 		</script>
 
 		<!-- load netlify-cms dependency form cdn -->
-		<script src="https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js"></script>
+		<script src="https://unpkg.com/decap-cms@latest"></script>
 
 		<script type="module">
-			import options from './js/options.js'
+			import options from "./js/options.js";
 
 			// initialize cms with our configuration options
-			window.initCMS(options)
+			window.initCMS(options);
 		</script>
 	</body>
 </html>
