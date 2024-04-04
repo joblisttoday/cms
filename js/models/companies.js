@@ -1,5 +1,4 @@
 import title from "../fields/companies/title.js";
-import slug from "../fields/companies/slug.js";
 import description from "../fields/companies/description.js";
 import tags from "../fields/companies/tags.js";
 import positions from "../fields/companies/positions.js";
@@ -25,6 +24,7 @@ const companies = {
 	label_singular: "Company",
 	folder: "companies",
 	media_folder: "",
+	extension: "json",
 	path: "{{slug}}/index",
 	create: true,
 	slug: "{{title}}",
@@ -36,19 +36,17 @@ const companies = {
 		"Companies, are projects currently recruiting for jobs. Projects of any size, with a /careers or /jobs type of page, listing jobs, can pretend to a spot in this list.",
 
 	/* filtering */
-	sortable_fields: ["title", "slug", "created_at"],
+	sortable_fields: ["title"],
 
 	/* fields */
 	fields: [
-		createdAt,
 		title,
-		slug,
-		companyUrl,
-		jobBoardUrl,
-		jobBoardProvider,
-		jobBoardHostname,
 		description,
 		tags,
+		jobBoardProvider,
+		jobBoardHostname,
+		companyUrl,
+		jobBoardUrl,
 		twitterUrl,
 		linkedinUrl,
 		youtubeUrl,
