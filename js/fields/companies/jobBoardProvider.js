@@ -5,6 +5,7 @@ export default {
 	options: [
 		"personio",
 		"recruitee",
+		"rippling",
 		"smartrecruiters",
 		"greenhouse",
 		"ashby",
