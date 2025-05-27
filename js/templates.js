@@ -1,4 +1,4 @@
-var CompaniesPreview = createClass({
+const CompaniesPreview = createClass({
 	componentDidMount: function () {
 		this.injectDependencies();
 	},
