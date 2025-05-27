@@ -1,22 +1,26 @@
-import collections from './collections.js'
+import collections from "./collections.js";
 
 export default {
 	config: {
 		load_config_file: false,
-		display_url: 'https://joblist.today',
 
-		publish_mode: 'editorial_workflow',
+		/* For local CMS, toggle next line and `npx decap-server` */
+		local_backend: true,
+
+		display_url: "https://joblist.today",
+
+		publish_mode: "editorial_workflow",
 		backend: {
-			name: 'github',
-			repo: 'joblisttoday/data',
-			branch: 'main',
-			open_authoring: true
+			name: "github",
+			repo: "joblisttoday/data",
+			branch: "main",
+			open_authoring: true,
 		},
 
-		media_folder: 'media/uploads',
-		public_folder: 'media/uploads',
-		logo_url: './media/joblist-logo.png',
+		media_folder: "media/uploads",
+		public_folder: "media/uploads",
+		logo_url: "./media/joblist-logo.png",
 
-		collections
-	}
-}
+		collections,
+	},
+};

@@ -14,12 +14,21 @@
 
 		<!-- load netlify-cms dependency form cdn -->
 		<script src="https://unpkg.com/decap-cms@latest"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@joblist/components@0.1.16"
+			type="module"
+		></script>
+		<style>
+			@import url("https://cdn.jsdelivr.net/npm/@joblist/components@0.1.16/dist-lib/style.css");
+		</style>
 
 		<script type="module">
 			import options from "./js/options.js";
+			import registerPreviewTemplate from "./js/templates.js";
 
 			// initialize cms with our configuration options
 			window.initCMS(options);
+			registerPreviewTemplate(window.CMS);
 		</script>
 	</body>
 </html>

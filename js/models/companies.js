@@ -29,7 +29,7 @@ const companies = {
 	create: true,
 	slug: "{{title}}",
 	editor: {
-		preview: false,
+		preview: true,
 	},
 
 	description:
